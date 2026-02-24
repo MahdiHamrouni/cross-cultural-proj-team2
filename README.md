@@ -1,1 +1,1 @@
-# cross-cultural-proj-team2
+# Careline: A mental health application project
