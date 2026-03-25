@@ -1,5 +1,0 @@
-[gd_scene format=3 uid="uid://jj7833gysa8p"]
-
-[node name="GameWorld" type="Node2D" unique_id=145368708]
-
-[node name="Ground" type="TileMapLayer" parent="." unique_id=1950237185]
