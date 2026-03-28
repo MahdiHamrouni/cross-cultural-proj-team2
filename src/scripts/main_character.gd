@@ -20,4 +20,5 @@ func _physics_process(delta: float) -> void:
 	# that are interpreted in order : -1.x , 1.x , -1.y , 1.y
 	var direction = Input.get_vector("move_left", "move_right", "move_up", "move_down")
 	velocity = direction * SPEED
+	$AnimatedSprite2D.animation = "south"
 	move_and_slide()
