@@ -167,8 +167,7 @@ scale = Vector2(2, 2)
 shape = SubResource("CircleShape2D_55w7u")
 
 [node name="Sprite2D" type="AnimatedSprite2D" parent="mainCharacter" unique_id=1388342049]
-position = Vector2(0, -37.000004)
+position = Vector2(0, -35.000004)
 scale = Vector2(0.537, 0.529)
 sprite_frames = SubResource("SpriteFrames_txuvn")
-animation = &"down"
-frame_progress = 0.6971346
+animation = &"left"
