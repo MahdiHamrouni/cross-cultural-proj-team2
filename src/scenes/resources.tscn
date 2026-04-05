@@ -7,7 +7,7 @@
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_2c8y1"]
 texture = ExtResource("2_ri6pp")
-modulate_color = Color(0.74474084, 0.74474084, 0.74474084, 1)
+modulate_color = Color(0.5417866, 0.54178697, 0.54178685, 1)
 
 [node name="Resources" type="Control" unique_id=1839223169]
 layout_mode = 3
@@ -43,7 +43,17 @@ layout_mode = 2
 layout_mode = 2
 size_flags_vertical = 0
 theme_override_constants/separation = 39
-alignment = 1
+
+[node name="backHome" type="Button" parent="VBoxContainer/HorizontalContainer" unique_id=2034605115]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+size_flags_horizontal = 8
+theme_override_font_sizes/font_size = 50
+text = "←"
+
+[node name="ButtonSpace" type="Control" parent="VBoxContainer/HorizontalContainer" unique_id=945374602]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
 
 [node name="SWISS" type="TextureButton" parent="VBoxContainer/HorizontalContainer" unique_id=1113587241]
 custom_minimum_size = Vector2(120, 80)
@@ -61,7 +71,7 @@ texture_normal = ExtResource("2_dqf23")
 ignore_texture_size = true
 stretch_mode = 6
 
-[node name="BottomSpace" type="Control" parent="VBoxContainer" unique_id=480839398]
+[node name="MidSpace" type="Control" parent="VBoxContainer" unique_id=480839398]
 custom_minimum_size = Vector2(0, 15)
 layout_mode = 2
 
@@ -74,5 +84,10 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
+[node name="BottomSpace" type="Control" parent="VBoxContainer" unique_id=822922884]
+custom_minimum_size = Vector2(0, 30)
+layout_mode = 2
+
+[connection signal="pressed" from="VBoxContainer/HorizontalContainer/backHome" to="." method="_on_back_home_pressed"]
 [connection signal="pressed" from="VBoxContainer/HorizontalContainer/SWISS" to="." method="_on_swiss_pressed"]
 [connection signal="pressed" from="VBoxContainer/HorizontalContainer/USA" to="." method="_on_usa_pressed"]

@@ -8,6 +8,9 @@
 [ext_resource type="Texture2D" uid="uid://bpltkvajs8l7t" path="res://assets/images/characters/movements/left.png" id="5_ydcvb"]
 [ext_resource type="Texture2D" uid="uid://bo4x3tabjx6pe" path="res://assets/images/characters/movements/right.png" id="6_8x5ms"]
 [ext_resource type="Texture2D" uid="uid://bmpcq3jswkxlc" path="res://assets/images/characters/movements/up.png" id="7_0xkg6"]
+[ext_resource type="Texture2D" uid="uid://b20eb2udcauge" path="res://assets/images/main_map/characters/SchoolNPC.png" id="9_8x5ms"]
+[ext_resource type="Script" uid="uid://xlt3u60lq7la" path="res://scripts/NPCs/schoolNPC.gd" id="10_0xkg6"]
+[ext_resource type="Resource" uid="uid://co76vy27i70ar" path="res://dialogues/school/dialogue.dialogue" id="11_ew7kp"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_txuvn"]
 texture = ExtResource("1_55w7u")
@@ -12886,3 +12889,16 @@ sprite_frames = SubResource("SpriteFrames_invun")
 animation = &"down"
 
 [node name="Camera2D" type="Camera2D" parent="mainCharacter" unique_id=2011900217]
+
+[node name="NPC" type="TextureButton" parent="." unique_id=1532531223 node_paths=PackedStringArray("player")]
+custom_minimum_size = Vector2(40, 80)
+offset_left = -573.0
+offset_top = -281.0
+offset_right = -502.0
+offset_bottom = -154.0
+texture_normal = ExtResource("9_8x5ms")
+ignore_texture_size = true
+stretch_mode = 5
+script = ExtResource("10_0xkg6")
+dialogue_resource = ExtResource("11_ew7kp")
+player = NodePath("../mainCharacter")

@@ -128,7 +128,7 @@ func mostra_risorse(lista):
 			continue
 		
 		# Controlla se la stringa contiene un link (www. o http)
-		if "www." in testo or "http://" in testo or "https://" in testo:
+		if "www." in testo or "http://" in testo or "https://" in testo or ".org" in testo or ".gov" in testo or ".net" in testo:
 			# Crea un pulsante cliccabile
 			var btn = Button.new()
 			btn.text = testo
@@ -141,7 +141,8 @@ func mostra_risorse(lista):
 			var words = testo.split(" ")
 			var url_index = -1
 			for i in range(words.size()):
-				if "www." in words[i] or "http" in words[i]:
+				var w = words[i]
+				if "www." in w or "http" in w or ".org" in w or ".gov" in w or ".net" in w or ".ch" in w or ".com" in w:
 					url_index = i
 					break
 			if url_index >= 0:
@@ -169,3 +170,7 @@ func _on_swiss_pressed() -> void:
 
 func _on_usa_pressed() -> void:
 	mostra_risorse(americanResources) 
+
+
+func _on_back_home_pressed() -> void:
+	get_tree().change_scene_to_file("res://scenes/main_menu.tscn") # Replace with function body.
