@@ -20,7 +20,7 @@
 [ext_resource type="Script" uid="uid://xlt3u60lq7la" path="res://scripts/NPCs/schoolNPC.gd" id="10_0xkg6"]
 [ext_resource type="Texture2D" uid="uid://cc36aga3u87it" path="res://assets/images/main_map/14_Swimming_Pool_48x48.png" id="10_dd2jg"]
 [ext_resource type="Texture2D" uid="uid://bs13u6lj273ul" path="res://assets/images/main_map/22_Post_Office_48x48.png" id="11_0ln5h"]
-[ext_resource type="Resource" uid="uid://co76vy27i70ar" path="res://dialogues/school/dialogue.dialogue" id="11_ew7kp"]
+[ext_resource type="Resource" uid="uid://co76vy27i70ar" path="res://dialogues/school/school.dialogue" id="11_ew7kp"]
 [ext_resource type="Texture2D" uid="uid://blca3e4bovnee" path="res://assets/images/main_map/3_City_Props_48x48.png" id="13_y1htx"]
 [ext_resource type="Texture2D" uid="uid://b24xhtcem6mor" path="res://assets/images/main_map/4_Generic_Buildings_48x48.png" id="14_invun"]
 [ext_resource type="Texture2D" uid="uid://blc0rym63rdtc" path="res://assets/images/main_map/19_Graveyard_48x48.png" id="15_0ln5h"]

@@ -1,0 +1,19 @@
+~ start
+Student: Hey, you good? You look kind of stressed.
+- I'm fine.
+    Student: Alright. [wait=0.3] Good luck out there.
+- Honestly? School has been really overwhelming.
+    => overwhelmed_path
+
+~ overwhelmed_path
+Student: Yeah. [wait=0.4] I think more people feel that way than they let on.
+Student: [speed=0.5]It's easy to look around and feel like everyone else has it figured out.[speed=0.03] [wait=0.2] But that kind of thinking just steals from you.[wait=0.4] There's a reason they say comparison is the thief of joy.
+Student: Try not to measure yourself against everyone else. [wait=0.2] Focus on where you were last week, not where they are today. [wait=0.3] Break things down, take it one step at a time, and cut yourself some slack.
+Student: You're allowed to learn at your own pace. [wait=0.4]
+- I needed to hear that.
+    => final_response
+- I'll try.
+    => final_response
+
+~ final_response
+Student: We're all just figuring it out. [wait=0.2] You're not behind — [wait=0.2] you're just on your own path.
