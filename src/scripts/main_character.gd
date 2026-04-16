@@ -7,6 +7,10 @@ const JUMP_VELOCITY = -400.0
 # Prendi il riferimento al tuo nodo AnimatedSprite2D
 @onready var _animated_sprite = $AnimatedSprite2D
 
+func _ready() -> void:
+	GameManager.mainCharacter = self
+	pass
+
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
 	#if not is_on_floor():

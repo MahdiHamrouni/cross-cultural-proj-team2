@@ -22,6 +22,10 @@
 [ext_resource type="Script" uid="uid://xlt3u60lq7la" path="res://scripts/NPCs/schoolNPC.gd" id="10_0xkg6"]
 [ext_resource type="Texture2D" uid="uid://dlewi8cgam1od" path="res://assets/images/main_map/18_Fire_Station_48x48.png" id="10_cv8fj"]
 [ext_resource type="Texture2D" uid="uid://dil2wcmvlwyw8" path="res://assets/images/main_map/11_Camping_48x48.png" id="11_0n3mw"]
+[ext_resource type="Texture2D" uid="uid://dil2wcmvlwyw8" path="res://assets/images/main_map/11_Camping_48x48.png" id="9_dnsgx"]
+[ext_resource type="Script" uid="uid://xlt3u60lq7la" path="res://scripts/NPCs/NPC.gd" id="10_0xkg6"]
+[ext_resource type="Texture2D" uid="uid://cc36aga3u87it" path="res://assets/images/main_map/14_Swimming_Pool_48x48.png" id="10_dd2jg"]
+[ext_resource type="Texture2D" uid="uid://bs13u6lj273ul" path="res://assets/images/main_map/22_Post_Office_48x48.png" id="11_0ln5h"]
 [ext_resource type="Resource" uid="uid://co76vy27i70ar" path="res://dialogues/school/school.dialogue" id="11_ew7kp"]
 [ext_resource type="Texture2D" uid="uid://d3cp4pi6p6csr" path="res://assets/images/main_map/17_Garden_48xx48.png" id="12_hlc86"]
 [ext_resource type="Texture2D" uid="uid://dial55df5ye7m" path="res://assets/images/Animated_sheets_48x48/School_Flag_1_48x48.png" id="24_gdpos"]
@@ -65819,7 +65823,6 @@ ignore_texture_size = true
 stretch_mode = 5
 script = ExtResource("10_0xkg6")
 dialogue_resource = ExtResource("11_ew7kp")
-player = NodePath("../mainCharacter")
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="NPC" unique_id=1189074536]
 position = Vector2(27, 55)

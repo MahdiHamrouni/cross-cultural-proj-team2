@@ -2,11 +2,11 @@ extends TextureButton
 
 # Esporta le variabili per poterle impostare dall'Inspector
 @export var dialogue_resource: DialogueResource  # Il tuo file .dialogue
-@export var dialogue_start: String = "start"    # Il punto di inizio nel dialogo
 @export var interaction_distance: float = 150.0  # Distanza massima per interagire
+var dialogue_start: String = "start"
 
 # Riferimento al giocatore. Dovrai trascinarlo nell'Inspector.
-@export var player: CharacterBody2D
+@onready var player: CharacterBody2D = GameManager.mainCharacter;
 
 # Variabile per gestire lo stato del dialogo (evita click multipli)
 var is_dialog_active: bool = false
@@ -38,6 +38,8 @@ func _on_button_pressed():
 		# Potresti mostrare un messaggio a schermo per qualche secondo
 
 func start_dialogue():
+	
+	
 	# Impedisce di avviare un nuovo dialogo mentre questo è attivo
 	is_dialog_active = true
 
