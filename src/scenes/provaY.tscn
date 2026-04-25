@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://bx0ywlbnbw4qw"]
+
+[ext_resource type="PackedScene" uid="uid://dm8r5u03r7w1f" path="res://scenes/main_character.tscn" id="1_40t1f"]
+[ext_resource type="PackedScene" uid="uid://cbm2py3empb1f" path="res://scenes/provaYpala.tscn" id="2_qlxkf"]
+
+[node name="ProvaY" type="Node2D" unique_id=1649443264]
+y_sort_enabled = true
+
+[node name="mainCharacter" parent="." unique_id=1887360345 instance=ExtResource("1_40t1f")]
+z_index = 0
+y_sort_enabled = true
+position = Vector2(599, 129)
+
+[node name="StaticBody2D" parent="." unique_id=1086017885 instance=ExtResource("2_qlxkf")]
+position = Vector2(595, 279)
