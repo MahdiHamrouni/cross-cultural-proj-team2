@@ -60,7 +60,7 @@ interact={
 
 [internationalization]
 
-locale/translations_pot_files=PackedStringArray("res://dialogues/school/school.dialogue")
+locale/translations_pot_files=PackedStringArray("res://dialogues/school.dialogue")
 
 [physics]
 

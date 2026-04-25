@@ -1,6 +1,6 @@
 extends SubViewport
 
-@onready var player: CharacterBody2D = $"../../../../mainCharacter"
+@onready var player: CharacterBody2D = GameManager.mainCharacter
 
 @onready var camera_2d: Camera2D = $"Camera2D"
 
@@ -16,3 +16,4 @@ func _process(delta: float) -> void:
 
 func _on_main_menu_pressed() -> void:
 	get_tree().change_scene_to_file("res://scenes/main_menu.tscn")
+	

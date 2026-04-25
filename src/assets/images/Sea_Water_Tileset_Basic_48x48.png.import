@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://twrrorf5g6k7"
-path="res://.godot/imported/Sea_Water_Tileset_Basic_48x48.png-bdc0b43a129c5d0983f5e4b9ffdaac67.ctex"
+path="res://.godot/imported/Sea_Water_Tileset_Basic_48x48.png-8c90c8e6d7edeb7e3ad9b2432f8b2116.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://dialogues/Sea_Water_Tileset_Basic_48x48.png"
-dest_files=["res://.godot/imported/Sea_Water_Tileset_Basic_48x48.png-bdc0b43a129c5d0983f5e4b9ffdaac67.ctex"]
+source_file="res://assets/images/Sea_Water_Tileset_Basic_48x48.png"
+dest_files=["res://.godot/imported/Sea_Water_Tileset_Basic_48x48.png-8c90c8e6d7edeb7e3ad9b2432f8b2116.ctex"]
 
 [params]
 
