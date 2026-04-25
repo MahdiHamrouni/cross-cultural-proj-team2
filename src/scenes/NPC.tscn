@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://b7rw1dxvswg8p"]
+
+[ext_resource type="Script" uid="uid://mecar2p7uph7" path="res://scripts/NPC.gd" id="1_mhefn"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ktgr7"]
+radius = 19.104973
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_6xvi5"]
+radius = 37.0
+height = 114.0
+
+[node name="StaticBody2D" type="StaticBody2D" unique_id=1298429886]
+y_sort_enabled = true
+script = ExtResource("1_mhefn")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2039866221]
+position = Vector2(0, 49)
+shape = SubResource("CircleShape2D_ktgr7")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1633651231]
+scale = Vector2(3.2, 3.2)
+
+[node name="ProximityArea" type="Area2D" parent="." unique_id=583610771]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ProximityArea" unique_id=2110541553]
+position = Vector2(0, 27)
+shape = SubResource("CapsuleShape2D_6xvi5")
