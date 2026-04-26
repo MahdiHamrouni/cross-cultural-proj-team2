@@ -161,10 +161,11 @@ z_index = 2
 script = ExtResource("1_k0aba")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1058551681]
+y_sort_enabled = true
 scale = Vector2(0.6466345, 0.62017274)
 sprite_frames = SubResource("SpriteFrames_invun")
 animation = &"down"
-offset = Vector2(0, -60)
+offset = Vector2(0, -50)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=793131588]
 shape = SubResource("RectangleShape2D_824fc")

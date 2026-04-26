@@ -7,8 +7,6 @@
 y_sort_enabled = true
 
 [node name="mainCharacter" parent="." unique_id=1887360345 instance=ExtResource("1_40t1f")]
-z_index = 0
-y_sort_enabled = true
 position = Vector2(599, 129)
 
 [node name="StaticBody2D" parent="." unique_id=1086017885 instance=ExtResource("2_qlxkf")]
