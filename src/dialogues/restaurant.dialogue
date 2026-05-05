@@ -1,0 +1,24 @@
+~ start
+Chef: You okay? You've got that look like the food isn't the only thing weighing on you.
+- I'm fine.
+    => fine
+- Honestly? I've been feeling really alone.
+    => honest
+
+~ fine
+Chef: Alright. Enjoy your meal.
+=> END
+
+~ honest
+Chef: Funny place to feel that way, surrounded by people. But I get it.
+Chef: Belonging is a basic human need. When it's missing, everything feels heavier. There's nothing wrong with you.
+Chef: Reach out to someone. Start small. And if it's really weighing on you — talk to someone who can actually help.
+Chef: [raises their glass] You're not as alone as you think.
+- Thanks.
+    => closing
+- I'll try.
+    => closing
+
+~ closing
+Chef: That's enough for today.
+=> END

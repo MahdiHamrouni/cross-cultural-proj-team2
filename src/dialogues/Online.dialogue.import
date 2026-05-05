@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://dghfaqqbd2qnx"
+path="res://.godot/imported/Online.dialogue-0210e42408e202874a6bc5ed311513a0.tres"
+
+[deps]
+
+source_file="res://dialogues/Online.dialogue"
+dest_files=["res://.godot/imported/Online.dialogue-0210e42408e202874a6bc5ed311513a0.tres"]
+
+[params]
+
+defaults=true

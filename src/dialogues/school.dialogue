@@ -1,11 +1,57 @@
 ~ start
-Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
-Nathan: Here are some choices.
-- First one
-	Nathan: You picked the first one.
-- Second one
-	Nathan: You picked the second one.
-- Start again => start
-- End the conversation => END
-Nathan: For more information see the online documentation.
+Student: Since we're stuck here... let me ask you something. Do you ever walk into a room—like the cafeteria or a new class—and suddenly feel like you're on a stage with a giant spotlight on you? And everyone in the audience is just... waiting for you to mess up?
+- Every single time. It's exhausting.
+    => spotlight_response
+- Only when I'm actually doing something, like presenting.
+    => spotlight_response
+- I feel more like a ghost than a star.
+    => spotlight_response
+- I just ignore everyone and hope for the best.
+    => spotlight_response
+
+~ spotlight_response
+Student: Total mood. It's like your brain suddenly decides you're the main character, but in a horror movie where the monster is just... someone judging your outfit or the way you walk.
+Student: Here's the wild part: Scientists call that the "Spotlight Effect." We think there's a literal lamp following us around, highlighting every awkward thing we do.
+Student: But in reality? Most people are so worried about their own spotlight that they don't even notice yours. They're too busy thinking, "Wait, is my hair weird?" to notice if you stumbled over a word.
+Student: But even knowing that, the "What Ifs" still hit hard, right? "What if I say something stupid?" "What if they think I'm weird?"
+Student: When those thoughts start spiraling in class, what's your go-to move?
+- I just stop talking entirely.
+    => coping_response
+- I over-rehearse what I'm going to say in my head.
+    => coping_response
+- I check my phone to look busy.
+    => coping_response
+- I try to act 'normal' but I end up feeling like a robot.
+    => coping_response
+
+~ coping_response
+Student: I've definitely done the "robot" thing. It's like your social software starts lagging and you forget how arms work.
+Student: The thing is, social anxiety isn't a personality flaw. It's your brain's overprotective security system. It thinks a judgmental look is as dangerous as a tiger. Spoiler: It's not, but tell that to your sweaty palms.
+Student: We can't exactly turn the security system off, but we can definitely turn the volume down.
+Student: Ready for some "Social Stealth" power-ups?
+- Drop the loot.
+    => powerups
+
+~ powerups
+Student: You got it. Here's the kit:
+Student: First: The 5-5-5 Rule. When your heart starts racing, find 5 things you can see, 5 you can hear, and 5 you can touch. It bails your brain out of the "future-worry" and puts it back in the room.
+Student: Second: Fact-Check the Internal Critic. When your brain says, "Everyone thinks I'm a loser," ask: "Do I have actual receipts for that? Or am I just making up a story?"
+Student: Third: The "So What?" Game. If you do say something awkward... so what? Will anyone remember it in three days? Probably not. They'll be too busy remembering their own awkward moments.
+Student: Fourth: Eye Contact "Light". If looking people in the eye is too much, look at the spot right between their eyebrows. They can't tell the difference, and it feels 50% less intense.
+Student: Fifth: Focus Outward. Instead of monitoring your own breathing or posture, try to really listen to what the other person is saying. Get curious about them.
+Student: Which one of these feels like it might actually keep you from glitching today?
+- Fact-checking my inner critic.
+    => closing
+- The 5-5-5 grounding trick.
+    => closing
+- Playing the 'So What?' game.
+    => closing
+- Focusing more on others than myself.
+    => closing
+
+~ closing
+Student: Solid choice. It takes the pressure off of you and puts it back on the world.
+Student: Before you head to your next class, remember this: You are allowed to be awkward. Most of the coolest people are. Perfection is boring anyway—it's the glitches that make us interesting.
+Student: If you need me, I'll be right here... still trying to figure out if I can get through the rest of the day without accidentally waving back at someone who wasn't waving at me.
+Student: Ready to move on? Just tap the screen. We've got this.
 => END

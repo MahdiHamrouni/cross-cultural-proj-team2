@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://btv7ppbnrilrt"
+path="res://.godot/imported/Walking.dialogue-2f075e40c3500629d4f33594025b0e58.tres"
+
+[deps]
+
+source_file="res://dialogues/Walking.dialogue"
+dest_files=["res://.godot/imported/Walking.dialogue-2f075e40c3500629d4f33594025b0e58.tres"]
+
+[params]
+
+defaults=true

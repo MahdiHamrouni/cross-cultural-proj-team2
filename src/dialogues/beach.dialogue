@@ -1,0 +1,33 @@
+~ start
+Beachgoer: Hey... glad you made it out here. Beach days sound relaxing in theory, right? Sun, waves, good vibes.
+Beachgoer: But let me ask you something real quick— Have you ever stepped onto a beach and suddenly felt way more aware of your body than usual?
+- Yeah... instantly.
+    => beach_spotlight
+- Sometimes, depends on the day.
+    => beach_spotlight
+- Not really.
+    => beach_spotlight
+- I try not to think about it.
+    => beach_spotlight
+
+~ beach_spotlight
+Beachgoer: Yeah. Same. It's like the second you hit the sand, your brain flips on this spotlight you didn't ask for.
+Beachgoer: You start noticing everything—your body, other people's bodies, what you're wearing, what you wish you looked like.
+Beachgoer: And somehow it feels like everyone else is more confident, more comfortable, more... put together.
+Beachgoer: But here's something important that doesn't get said enough— Most of the people you see out here? They're in their own heads too. They're adjusting, comparing, overthinking. Just like you.
+Beachgoer: Let me ask you—when you look around and see someone you think looks "perfect"... what happens in your mind?
+- I compare myself immediately.
+    => comparison_mode
+- I feel kind of insecure.
+    => comparison_mode
+- I try not to, but it still happens.
+    => comparison_mode
+- I remind myself it doesn't matter.
+    => comparison_mode
+
+~ comparison_mode
+Beachgoer: All of those are super common. Your brain is wired to compare—it's trying to make sense of where you fit in.
+Beachgoer: But at the beach, that instinct goes into overdrive. It's like comparison mode gets cranked to max volume.
+Beachgoer: Just remember to give yourself some grace today. You deserve to enjoy the sun just as much as anyone else here.
+Beachgoer: Ready to find a spot to sit? Just tap the screen when you are.
+=> END

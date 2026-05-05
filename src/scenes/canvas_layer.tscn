@@ -2574,6 +2574,6 @@ offset_right = 82.0
 offset_bottom = -101.0
 grow_horizontal = 2
 grow_vertical = 2
-text = "\"Premi E per parlare\""
+text = "\"Press E to talk\""
 
 [connection signal="pressed" from="main_menu" to="Panel/SubViewportContainer/SubViewport" method="_on_main_menu_pressed"]

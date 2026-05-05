@@ -2,14 +2,16 @@ extends StaticBody2D
 
 @export var dialogue_resource: DialogueResource
 @export var npc_texture: Texture2D
-var dialogue_start: String = "start"
+@export var sprite_scale: Vector2 = Vector2(1, 1)
 
 @onready var player: CharacterBody2D = GameManager.mainCharacter
 
+var dialogue_start: String = "start"
 var is_dialog_active: bool = false
 var player_nearby: bool = false
 
 func _ready():
+	$Sprite2D.scale = sprite_scale
 	$ProximityArea.body_entered.connect(_on_body_entered)
 	$ProximityArea.body_exited.connect(_on_body_exited)
 	if npc_texture != null:

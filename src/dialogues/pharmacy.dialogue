@@ -1,0 +1,20 @@
+~ start
+Elara: Pharmacy run? I remember when I first got mine—I sat in the car for twenty minutes before I even opened the bag.
+- I'm just having a hard time admitting I actually need this. It feels like I failed.
+    => elara_glasses
+- I'm worried people will think I'm taking the easy way out instead of just 'being strong'.
+    => elara_glasses
+
+~ elara_glasses
+Elara: It's not a shortcut. If your vision was blurry, you'd wear glasses—this is just 'glasses' for your brain chemistry.
+- I never really thought of it that way. It's just another tool, I guess.
+    => elara_support
+- I think I've been treating a medical issue like a character flaw.
+    => elara_support
+
+~ elara_support
+Elara: Exactly. You're just giving your system a hand. There's no prize for struggling more than you have to.
+- I think I'm ready to stop feeling guilty and just start trying to feel better.
+    => END
+- It's a relief to hear that using help is actually the smart move, not the weak one.
+    => END

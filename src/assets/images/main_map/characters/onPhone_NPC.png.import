@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b20eb2udcauge"
-path="res://.godot/imported/SchoolNPC.png-30cc778084b8d9eebc6d15391108351d.ctex"
+uid="uid://cr07sj2iohy27"
+path="res://.godot/imported/onPhone_NPC.png-0969f84583eff767d4b87e84bbbf7e83.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/main_map/characters/SchoolNPC.png"
-dest_files=["res://.godot/imported/SchoolNPC.png-30cc778084b8d9eebc6d15391108351d.ctex"]
+source_file="res://assets/images/main_map/characters/onPhone_NPC.png"
+dest_files=["res://.godot/imported/onPhone_NPC.png-0969f84583eff767d4b87e84bbbf7e83.ctex"]
 
 [params]
 

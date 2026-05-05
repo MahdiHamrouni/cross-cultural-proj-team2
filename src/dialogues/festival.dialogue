@@ -1,0 +1,44 @@
+~ start
+Concertgoer: I didn't expect to see you here. You been here all day?
+You: Yeah, since the afternoon. It's been a good one.
+Concertgoer: Same. Hey, I grabbed something earlier if you want any. It makes the whole thing hit way different.
+You: What is it?
+Concertgoer: Just something to take the edge off. Half the people here are on it right now, it's nothing crazy.
+You: I don't know...
+Concertgoer: Seriously, you'll thank me when the lights drop. It just makes everything feel more alive. You're already here, might as well actually feel it.
+- Nah, I'm good. I'm already feeling the energy in here.
+    => choice_a
+- Maybe later in the night.
+    => choice_b
+- Okay... yeah, sure.
+    => choice_c
+- I'll pass. But do you actually know what's in it?
+    => choice_d
+
+~ choice_a
+Concertgoer: Your loss. (shrugs and turns back to the stage)
+You: (to yourself) Huh. That was it.
+Narrator: The lights drop. The crowd surges forward. You are completely present for all of it.
+System: Skill reinforced: Values-based refusal. You don't owe anyone an explanation. Naming what you're already feeling makes the "no" land without any drama.
+=> END
+
+~ choice_b
+Concertgoer: Yeah for sure, just find me after the first few songs.
+Narrator: The set starts. Twenty minutes in, the Concertgoer taps you on the shoulder.
+Concertgoer: So — still maybe later, or you actually want some now?
+You: (realizes the door is still open)
+System: Skill reinforced: "Maybe later" delays the pressure but doesn't end it. A clear "no" upfront costs less than carrying the decision through the whole night.
+=> END
+
+~ choice_c
+Concertgoer: There you go. (hands it over) You'll feel it in a bit.
+Narrator: The set starts. You wait. Then something shifts — the crowd feels too close, the sound too loud.
+You: (to yourself) I don't actually know what I just took.
+Narrator: The Concertgoer has disappeared into the crowd. You are alone with it.
+System: Skill reinforced: If anything feels wrong, find event medical staff immediately. That is not overreacting — it is exactly what they are there for, and you will not get in trouble.
+=> END
+
+~ choice_d
+Concertgoer: (pause) The guy said it was fine.
+You: Yeah but like — do you actually know?
+=> END

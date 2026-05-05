@@ -1,0 +1,31 @@
+~ start
+Guide: Oh hey, you made it. Welcome to the Edge of the Feed. I'm Sage. Your local guide, part chill friend, part "I might've scrolled too long again last night."
+Guide: So uh... before we jump in... quick question: Did you ever open social media and immediately feel like your entire life is... not aesthetic enough?
+- Literally every day.
+    => highlight_reel
+- Sometimes.
+    => highlight_reel
+- Nah, I'm built different.
+    => highlight_reel
+- I refuse to answer that.
+    => highlight_reel
+
+~ highlight_reel
+Guide: Honestly? Same. My feed looks like this magical land where everyone else is glowing and productive while I'm over here eating cereal for dinner. Twice.
+Guide: But here's the secret the apps don't tell you... Everything you're seeing? Yeah, that's a highlight reel. Like, the top 1% moments of someone's life.
+Guide: Meanwhile you're comparing it to your entire behind-the-scenes. The messy hair. The stress. The "Wait, what am I even doing today?" vibes.
+Guide: Let me ask you something though. When you see someone posting their dream vacation or perfect gym pic... what does your brain do?
+- Glad for them!
+    => comparison_trap
+- Immediately compare myself.
+    => comparison_trap
+- I KNOW it's curated but my brain still attacks me.
+    => comparison_trap
+- Uninstalling the app as we speak.
+    => comparison_trap
+
+~ comparison_trap
+Guide: All totally normal. Your brain is literally built to compare itself to others. It's trying to figure out where you fit socially — which is cool and all — BUT social media turns that instinct into a full-time job.
+Guide: Instead of comparing yourself to a few people, suddenly you're comparing yourself to thousands of edited, filtered, perfectly lit moments every single day. And your brain's like, "Oh wow... everyone else has their life together."
+Guide: Spoiler: they don't.
+=> END

@@ -1,0 +1,21 @@
+~ start
+System: A busy sidewalk. Kael is cleaning the front door of his shop and notices the MC lingering.
+Kael: You alright? You've been standing there staring at the window for a while.
+- Just caught my reflection and it kind of ruined my mood. I hate how I look today.
+    => kael_flaws
+- I'm just over-analyzing everything I see in the glass. It's a hard habit to break.
+    => kael_flaws
+
+~ kael_flaws
+Kael: I get it, but honestly? Your brain is probably seeing 'flaws' that literally no one else on this street is even noticing.
+- I know, but it feels so real when I'm the one looking at it.
+    => kael_body
+- I guess I'm just looking for reasons to be hard on myself right now.
+    => kael_body
+
+~ kael_body
+Kael: Try to just see it as a reflection of a person walking. It's just a body doing its job, getting you from A to B.
+- Right. It's just a body. I don't have to love it to appreciate that it's working.
+    => END
+- I need to stop letting a piece of glass decide if I'm having a good day or not.
+    => END
