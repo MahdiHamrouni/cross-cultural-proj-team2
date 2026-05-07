@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://ddu737pdd32l8"]
+
+[ext_resource type="Script" uid="uid://34gomlbux0dx" path="res://scripts/mini-games/break-breaker/player.gd" id="1_bxfto"]
+[ext_resource type="PackedScene" uid="uid://8glqr1vcrtfl" path="res://scenes/mini-games/break-breaker/pellet.tscn" id="2_strgu"]
+[ext_resource type="Texture2D" uid="uid://ce4agvrb2lnnr" path="res://assets/images/mini-games/break-breaker/player.png" id="3_276j3"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_7enq1"]
+radius = 35.0
+
+[node name="Player" type="Area2D" unique_id=376937879]
+script = ExtResource("1_bxfto")
+pellet_scene = ExtResource("2_strgu")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1282566011]
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("3_276j3")
+offset = Vector2(0, 45)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=777739823]
+shape = SubResource("CircleShape2D_7enq1")

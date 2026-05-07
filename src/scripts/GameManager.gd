@@ -5,6 +5,9 @@ var mainCharacter: CharacterBody2D = null
 @onready var interact_prompt: Label = null  
 var canvas_layer: CanvasLayer = null
 
+# this variable is used for the intro in the mini-games
+var intro_shown: bool = false
+
 func show_interact_prompt(value: bool):
 	if interact_prompt != null:
 		interact_prompt.visible = value
