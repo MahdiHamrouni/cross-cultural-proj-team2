@@ -1,0 +1,19 @@
+~ start
+System: Un marciapiede affollato. Kael sta pulendo la porta del suo negozio e nota il personaggio principale che indugia.
+Kael: Stai bene? Sei lì fermo a fissare la vetrina da un po'.
+- Ho visto il mio riflesso e mi ha rovinato l'umore. Odio come mi vedo oggi.
+    => kael_flaws
+- Sto solo analizzando troppo tutto quello che vedo nel vetro. È un'abitudine difficile da rompere.
+    => kael_flaws
+~ kael_flaws
+Kael: Ti capisco, ma onestamente? Il tuo cervello sta probabilmente vedendo dei 'difetti' che letteralmente nessun altro su questa strada sta notando.
+- Lo so, ma sembra così reale quando sono io a guardarlo.
+    => kael_body
+- Immagino che stia solo cercando motivi per essere duro con me stesso in questo momento.
+    => kael_body
+~ kael_body
+Kael: Prova a vederlo semplicemente come il riflesso di una persona che cammina. È solo un corpo che fa il suo lavoro, portandoti dal punto A al punto B.
+- Giusto. È solo un corpo. Non devo amarlo per apprezzare che funziona.
+    => END
+- Devo smettere di lasciare che un pezzo di vetro decida se sto avendo una buona giornata o no.
+    => END

@@ -1,0 +1,37 @@
+keys,it,en
+INTERACT_PROMPT,Premi E per interagire,Press E to interact
+MAIN_MENU_START,Inizia il tuo viaggio,Begin your journey
+MAIN_MENU_LANGUAGE,Lingua: ,Language: 
+MAIN_MENU_RESOURCES,Risorse,Resources
+MAIN_MENU_QUIT,Esci,Quit
+MINIGAME_MENU_TITLE,Mini-giochi,Mini-games
+MINIGAME_BACK_HOME,Torna a casa,Back home
+MINIGAME_PLAY,Gioca,Play
+MINIGAME_HIGHLIGHT_TITLE,Il Frantumatore di Highlight,The Highlight Reel Smasher
+MINIGAME_HIGHLIGHT_DESC,"I social media ti mostrano la versione perfetta della vita di tutti. Corpi perfetti, viaggi perfetti, momenti perfetti. Ma dietro ogni foto filtrata c'è una realtà che nessuno pubblica. Prendi le tue Truth Pellets e distruggi l'illusione. Sfonda i post perfetti e scopri cosa c'è davvero dietro lo schermo.","Social media shows you the perfect version of everyone's life. Perfect bodies, perfect trips, perfect moments. But behind every filtered photo is a reality nobody posts. Grab your Truth Pellets and shatter the illusion. Break through the perfect posts and see what's really behind the screen."
+MINIGAME_PACEMAKER_TITLE,Il Tuo Ritmo Personale,Personal Pace-Maker
+MINIGAME_PACEMAKER_DESC,"Tutti intorno a te sembrano correre più veloci. Fanno di più, realizzano di più. Ma questa non è la loro gara — è la tua. Schiva gli ostacoli che la vita ti lancia, raccogli le piccole vittorie lungo la strada e raggiungi il traguardo al tuo ritmo. Non a quello di nessun altro.","Everyone around you seems to be running faster. Finishing more, achieving more, doing more. But this is not their race — it's yours. Dodge the obstacles life throws at you, collect the small wins along the way, and reach the finish line at your own pace. Nobody else's."
+MINIGAME_SWATTER_TITLE,Il Caccia-Pensieri,Thought-Swatter
+MINIGAME_SWATTER_DESC,"Il tuo critico interiore non dorme mai. Conosce le tue paure, i tuoi dubbi, i tuoi momenti peggiori — e li usa contro di te. Ma la voce nella tua testa non ha sempre ragione. Defletti le sue parole, combatti con la verità e metti a tacere il critico una volta per tutte.","Your inner critic never sleeps. It knows your fears, your doubts, your worst moments — and it uses them against you. But the voice inside your head is not always right. Deflect its words, fight back with the truth, and silence the critic once and for all."
+HIGHLIGHT_TITLE,Il Frantumatore di Highlight,The Highlight Reel Smasher
+HIGHLIGHT_INTRO_DESC,"I social mostrano solo il meglio — ma dietro ogni foto perfetta si nasconde la realtà. Spara le tue Truth Pellets per rivelare la verità. Non credere a tutto ciò che vedi online.","Social media shows only the best - but behind every perfect photo lies reality. Shoot your Truth Pellets to reveal the truth behind glossy posts. Don't believe everything you see online."
+HIGHLIGHT_START,Inizia,Start
+GAME_QUIT,Esci,Quit
+GAME_RESTART,Rigioca,Restart
+GAME_YOUR_SCORE,Il tuo punteggio:,Your score:
+GAME_HIGHEST_SCORE,Punteggio più alto:,Highest score:
+PACEMAKER_TITLE,Il Tuo Ritmo Personale,The Personal Pace-Maker
+PACEMAKER_INTRO_DESC,"La vita non è una gara, ma ti lancia ostacoli. Corri al tuo ritmo, non a quello degli altri. Raccogli gli orb lungo la strada. Spazio — Salta    S — Abbassati","Life is not a race, but it throws obstacles at you. Run at your own pace, not theirs. Collect the orbs along the way. space — Jump    S — Duck"
+PACEMAKER_MSG_1,Vai al tuo ritmo,Go at your own pace
+PACEMAKER_MSG_2,Non devi correre,You don't need to rush
+PACEMAKER_MSG_3,Ogni passo conta,Every step counts
+PACEMAKER_MSG_4,Questo è il tuo viaggio,This is your journey
+PACEMAKER_ORB,"Orb: ","Orb: "
+PACEMAKER_END_MSG,"Alcuni ostacoli ti hanno colpito comunque \nquesta è la vita.\nNon sempre ti dà spazio per schivare.\nCiò che conta è che hai continuato a correre.","Some obstacles hit you anyway — that's life.\nIt doesn't always give you room to dodge.\nWhat matters is that you kept running."
+PACEMAKER_END_ORBS,"Orb raccolti: ","Progress orbs collected: "
+SWATTER_TITLE,Il Caccia-Pensieri,The Thought Swatter
+SWATTER_INTRO_DESC,"La tua mente può essere il tuo peggior nemico.\nMa puoi combattere.\nSpazio — Scudo    K — Spara\nA/D — Muovi    W — Salta","Your own mind can be your worst enemy.\nBut you can fight back.\nSpace — Shield    K — Shoot\nA/D — Move    W — Jump"
+SWATTER_WIN,"Hai messo a tacere la voce.\nTornerà — ma ora sai che puoi batterla.\n\nIl tuo tempo: %02d:%02d\nMiglior tempo: %02d:%02d","You silenced the voice.\nIt will come back — but now you know you can beat it.\n\nYour time: %02d:%02d\nBest time: %02d:%02d"
+SWATTER_LOSE,"La voce era forte oggi.\nVa bene. Riprova.","The voice was loud today.\nThat's okay. Try again."
+INTERACT_TALK,Premi E per parlare,Press E to talk
+MINDFULNESS_LABEL,Consapevolezza,Mindfulness

@@ -1,6 +1,6 @@
 extends StaticBody2D
 
-@export var dialogue_resource: DialogueResource
+@export var dialogue_filename: String = ""
 @export var npc_texture: Texture2D
 @export var sprite_scale: Vector2 = Vector2(1, 1)
 
@@ -25,23 +25,29 @@ func _unhandled_input(event):
 func _on_body_entered(body):
 	if body == player:
 		player_nearby = true
-		GameManager.show_interact_prompt(true)  # dici al GameManager di mostrare il prompt
+		GameManager.show_interact_prompt(true)
 
 func _on_body_exited(body):
 	if body == player:
 		player_nearby = false
 		GameManager.show_interact_prompt(false)
 
+func _get_dialogue_resource() -> DialogueResource:
+	var lang = TranslationServer.get_locale().substr(0, 2)
+	var path = "res://dialogues/%s/%s.dialogue" % [lang, dialogue_filename]
+	return load(path)
+
 func start_dialogue():
 	is_dialog_active = true
 	player.process_mode = Node.PROCESS_MODE_DISABLED
-	GameManager.show_interact_prompt(false)  # nasconde il prompt
-	GameManager.show_hud(false)              # nasconde tutto il CanvasLayer
-	DialogueManager.show_dialogue_balloon(dialogue_resource, dialogue_start)
+	GameManager.show_interact_prompt(false)
+	GameManager.show_hud(false)
+	var resource = _get_dialogue_resource()
+	DialogueManager.show_dialogue_balloon(resource, dialogue_start)
 	DialogueManager.dialogue_ended.connect(_on_dialogue_ended)
 
 func _on_dialogue_ended(_resource: DialogueResource):
 	is_dialog_active = false
 	player.process_mode = Node.PROCESS_MODE_INHERIT
-	GameManager.show_hud(true)               # rimostra il CanvasLayer
+	GameManager.show_hud(true)
 	DialogueManager.dialogue_ended.disconnect(_on_dialogue_ended)

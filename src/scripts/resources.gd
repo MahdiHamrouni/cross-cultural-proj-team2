@@ -43,7 +43,6 @@ var swissResources = [
 	"YOU MATTER — This space is here for you — supportive, safe, and judgment-free."
 ]
 
-
 var americanResources = [
 	"EMERGENCY & CRISIS SUPPORT",
 	"911 — Medical, fire, or police emergency",
@@ -101,24 +100,117 @@ var americanResources = [
 	"YOU MATTER — Whether you're learning, reaching out, or seeking professional help, this space was made for you — supportive, safe, and judgment-free."
 ]
 
+var swissResources_it = [
+	"EMERGENZA E SUPPORTO IN CRISI",
+	"Numeri di emergenza: 144 — Emergenza medica",
+	"112 — Numero europeo di emergenza",
+	"147 — Linea giovani (gratuita, confidenziale)",
+	"143 — Die Dargebotene Hand / La Main Tendue (supporto emotivo 24/7)",
+	"SOS Suicidio (regioni francofone): +41 22 327 55 55",
+	"Servizi psichiatrici di emergenza: Contatta i servizi psichiatrici del tuo cantone",
+	"Psichiatria d'urgenza Inselspital (Berna): 031 632 24 24",
+	"",
+	"PARLA CON QUALCUNO — LINEE DI SUPPORTO",
+	"143 — La Mano Tesa: www.143.ch",
+	"147 — Linea di supporto giovani: www.147.ch",
+	"Consulenza Croce Rossa Svizzera: www.redcross.ch",
+	"SOS-Chat: www.sos-chat.ch",
+	"",
+	"IMPARA SULLA SALUTE MENTALE",
+	"Pro Mente Sana: www.promentesana.ch",
+	"Promozione Salute Svizzera: gesundheitsfoerderung.ch",
+	"Croce Rossa Svizzera — Salute Mentale: redcross.ch/themen/gesundheit/psychische-gesundheit",
+	"Organizzazione Mondiale della Sanità — Salute Mentale: who.int/health-topics/mental-health",
+	"",
+	"COME TROVARE AIUTO PROFESSIONALE",
+	"Trova uno psicologo — FSP: www.psy.ch",
+	"Trova uno psicoterapeuta — ASP: www.psychotherapie.ch",
+	"Servizi psichiatrici cantonali: Cerca 'Psychiatrische Dienste + [tuo cantone]'",
+	"",
+	"COPERTURA ASSICURATIVA",
+	"L'assicurazione base (LAMal/KVG) copre la terapia? Sì — se prescritta dal medico di base e fornita da uno psicoterapeuta riconosciuto.",
+	"Per verificare la tua polizza: visita la pagina delle prestazioni dell'assicuratore o chiama il numero sul tuo tesserino.",
+	"Chiedi: 'La mia polizza copre la psicoterapia secondo le nuove normative?', 'Quante sessioni sono incluse?', 'Ho bisogno di una prescrizione del medico di base?'",
+	"Assicuratori principali: CSS (www.css.ch), Helsana (www.helsana.ch), Sanitas (www.sanitas.com), Swica (www.swica.ch)",
+	"",
+	"COMUNITÀ E GRUPPI DI AUTO-AIUTO",
+	"Auto-aiuto Svizzera: www.selbsthilfeschweiz.ch",
+	"Rete di auto-aiuto Zurigo: www.kontaktstelle.ch",
+	"Supporto dipendenze Svizzera: www.suchtschweiz.ch",
+	"",
+	"SEI IMPORTANTE — Questo spazio è qui per te — solidale, sicuro e senza giudizi."
+]
 
+var americanResources_it = [
+	"EMERGENZA E SUPPORTO IN CRISI",
+	"911 — Emergenza medica, antincendio o polizia",
+	"988 — Linea per suicidio e crisi (telefono, SMS, chat; 24/7)",
+	"1-800-273-8255 — Linea di crisi per veterani (premi 1)",
+	"Crisis Text Line: Scrivi HOME al 741741",
+	"Trevor Project (giovani LGBTQ+): Chiama 1-866-488-7386 o scrivi START al 678678",
+	"SAMHSA National Helpline: 1-800-662-HELP (4357) (dipendenze e salute mentale)",
+	"",
+	"PARLA CON QUALCUNO — LINEE DI SUPPORTO",
+	"988 Linea per suicidio e crisi: 988lifeline.org",
+	"Crisis Text Line: crisistextline.org",
+	"SAMHSA Treatment Helpline: samhsa.gov/find-help/national-helpline",
+	"NAMI HelpLine (Alleanza nazionale per la malattia mentale): nami.org/help",
+	"Linea di crisi per veterani: veteranscrisisline.net",
+	"Trevor Project (giovani LGBTQ+): thetrevorproject.org",
+	"Trans Lifeline: translifeline.org",
+	"",
+	"IMPARA SULLA SALUTE MENTALE",
+	"Istituto Nazionale della Salute Mentale (NIMH): nimh.nih.gov",
+	"NAMI educazione sulla salute mentale: nami.org",
+	"MentalHealth.gov: mentalhealth.gov",
+	"American Psychological Association (APA): apa.org/topics",
+	"Guide sulla salute mentale Mayo Clinic: mayoclinic.org",
+	"",
+	"COME TROVARE AIUTO PROFESSIONALE",
+	"Psychology Today — Trova un terapeuta: psychologytoday.com/us/therapists",
+	"SAMHSA Treatment Locator: findtreatment.gov",
+	"APA Psychologist Locator: locator.apa.org",
+	"Directory online del tuo assicuratore (cerca 'Behavioral Health' o 'Mental Health Providers')",
+	"Centri di salute mentale comunitari (servizi a livello di contea)",
+	"Centri di consulenza universitari",
+	"Organizzazioni non profit locali che offrono terapia a basso costo",
+	"",
+	"COPERTURA ASSICURATIVA",
+	"Molti piani americani includono la copertura per la salute mentale grazie alle leggi federali sulla parità.",
+	"Per verificare la tua copertura: accedi al portale dell'assicuratore o chiama il numero sul tuo tesserino.",
+	"Chiedi: 'Qual è la mia copertura per la salute mentale?', 'Ho bisogno di pre-autorizzazione?', 'Quali fornitori sono in-network?', 'Ho copertura per la teleterapia?', 'Qual è il mio copay o franchigia?'",
+	"Assicuratori principali: Blue Cross Blue Shield (bcbs.com), UnitedHealthcare (uhc.com), Aetna (aetna.com), Cigna (cigna.com), Kaiser Permanente (kp.org)",
+	"Se non hai assicurazione: healthcare.gov per opzioni a basso costo; cliniche a scala scorrevole tramite Open Path Collective (openpathcollective.org)",
+	"",
+	"VETERANI USA E MILITARI IN SERVIZIO ATTIVO",
+	"Linea di crisi per veterani: 988, premi 1",
+	"Servizi di salute mentale VA: mentalhealth.va.gov",
+	"Vet Centers (consulenza gratuita per veterani di combattimento, famiglie, sopravvissuti): vetcenter.va.gov",
+	"Military OneSource (servizio attivo e famiglie): militaryonesource.mil",
+	"",
+	"COMUNITÀ E GRUPPI DI SUPPORTO",
+	"Gruppi di supporto NAMI: nami.org/supportgroups",
+	"Alcolisti Anonimi (AA): aa.org",
+	"Narcotici Anonimi (NA): na.org",
+	"Depression & Bipolar Support Alliance (DBSA): dbsalliance.org",
+	"Centri locali di salute mentale comunitari (i siti delle contee li elencano)",
+	"",
+	"SEI IMPORTANTE — Che tu stia imparando, chiedendo aiuto o cercando supporto professionale, questo spazio è stato creato per te — solidale, sicuro e senza giudizi."
+]
 
-# Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	pass # Replace with function body.
+	pass
 
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	pass
-	
-	
+
+func _get_lang() -> String:
+	return TranslationServer.get_locale().substr(0, 2)
+
 func mostra_risorse(lista):
-	# Pulisce il contenitore
 	for child in resources_container.get_children():
 		child.queue_free()
-	
-	# Aggiunge ogni risorsa come label (o bottone)
+
 	for testo in lista:
 		if testo == "":
 			var spacer = Label.new()
@@ -126,18 +218,15 @@ func mostra_risorse(lista):
 			spacer.custom_minimum_size.y = 10
 			resources_container.add_child(spacer)
 			continue
-		
-		# Controlla se la stringa contiene un link (www. o http)
+
 		if "www." in testo or "http://" in testo or "https://" in testo or ".org" in testo or ".gov" in testo or ".net" in testo:
-			# Crea un pulsante cliccabile
 			var btn = Button.new()
 			btn.text = testo
 			btn.flat = true
 			btn.alignment = HORIZONTAL_ALIGNMENT_CENTER
 			btn.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 			btn.add_theme_color_override("font_color", Color(0.2, 0.5, 0.8))
-			
-			# Estrae l'URL dalla stringa
+
 			var words = testo.split(" ")
 			var url_index = -1
 			for i in range(words.size()):
@@ -152,10 +241,9 @@ func mostra_risorse(lista):
 				btn.pressed.connect(func(): OS.shell_open(link))
 			else:
 				btn.pressed.connect(func(): OS.shell_open("https://" + testo))
-			
+
 			resources_container.add_child(btn)
 		else:
-			# Testo normale: usa Label
 			var label = Label.new()
 			label.text = testo
 			label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
@@ -163,14 +251,17 @@ func mostra_risorse(lista):
 			label.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 			resources_container.add_child(label)
 
-
 func _on_swiss_pressed() -> void:
-	mostra_risorse(swissResources)
-
+	if _get_lang() == "it":
+		mostra_risorse(swissResources_it)
+	else:
+		mostra_risorse(swissResources)
 
 func _on_usa_pressed() -> void:
-	mostra_risorse(americanResources) 
-
+	if _get_lang() == "it":
+		mostra_risorse(americanResources_it)
+	else:
+		mostra_risorse(americanResources)
 
 func _on_back_home_pressed() -> void:
 	get_tree().change_scene_to_file("res://scenes/main_menu.tscn")

@@ -29,19 +29,12 @@
 [ext_resource type="Texture2D" uid="uid://dial55df5ye7m" path="res://assets/images/Animated_sheets_48x48/School_Flag_1_48x48.png" id="24_gdpos"]
 [ext_resource type="Texture2D" uid="uid://dsq4kclnoxnfm" path="res://assets/images/main_map/characters/restaurant_NPC.png" id="25_1awhn"]
 [ext_resource type="Texture2D" uid="uid://d2xvfccllxnv8" path="res://assets/images/Animated_sheets_48x48/Dumpster_full_48x48.png" id="25_dnsgx"]
-[ext_resource type="Resource" uid="uid://co76vy27i70ar" path="res://dialogues/restaurant.dialogue" id="25_grygt"]
-[ext_resource type="Resource" uid="uid://nyug6rgn8gq6" path="res://dialogues/school.dialogue" id="27_vp8r3"]
 [ext_resource type="Texture2D" uid="uid://dlgvw1qjh1o3m" path="res://assets/images/Animated_sheets_48x48/Beach_Water_Buoy_2_48x48.png" id="28_0vckw"]
 [ext_resource type="Texture2D" uid="uid://lkx20qinkhol" path="res://assets/images/main_map/characters/school_NPC.png" id="28_6txi4"]
-[ext_resource type="Resource" uid="uid://bf8t52xlrf1xt" path="res://dialogues/beach.dialogue" id="29_d3m0s"]
-[ext_resource type="Resource" uid="uid://dl3p4f0ajocr3" path="res://dialogues/festival.dialogue" id="30_0vckw"]
 [ext_resource type="Texture2D" uid="uid://cfmgmv6tacp2u" path="res://assets/images/main_map/characters/beach_NPC.png" id="30_jcoo3"]
-[ext_resource type="Resource" uid="uid://f5tfvlrutuuo" path="res://dialogues/OnPhone.dialogue" id="31_evuf8"]
 [ext_resource type="Texture2D" uid="uid://dmnwtsqrjvho8" path="res://assets/images/Animated_sheets_48x48/Crabs_48x48.png" id="31_t0yy4"]
 [ext_resource type="Texture2D" uid="uid://cnka2tls8bktw" path="res://assets/images/Animated_sheets_48x48/Floating_Separation_Buoys_Vertical_2_48x48.png" id="32_evuf8"]
-[ext_resource type="Resource" uid="uid://btv7ppbnrilrt" path="res://dialogues/Walking.dialogue" id="32_vp5md"]
 [ext_resource type="Texture2D" uid="uid://bhcsf0wjb7wa6" path="res://assets/images/main_map/characters/festival_NPC.png" id="32_ynaag"]
-[ext_resource type="Resource" uid="uid://dxfg16vhtomsl" path="res://dialogues/pharmacy.dialogue" id="33_6txi4"]
 [ext_resource type="Texture2D" uid="uid://b4jjb2jfq1b2b" path="res://assets/images/Animated_sheets_48x48/Wind_Turbine_1_48x48.png" id="33_grygt"]
 [ext_resource type="Texture2D" uid="uid://bnsoi14e0p3tl" path="res://assets/images/Animated_sheets_48x48/Floating_Ring_2_48x48.png" id="33_vp5md"]
 [ext_resource type="Texture2D" uid="uid://cr07sj2iohy27" path="res://assets/images/main_map/characters/onPhone_NPC.png" id="34_4jxuj"]
@@ -86642,43 +86635,43 @@ scale = Vector2(0.6, 0.6)
 
 [node name="Restaurant_NPC" parent="YSortLayer/Entities" unique_id=1298429886 instance=ExtResource("40_jcoo3")]
 position = Vector2(2235, 2049)
-dialogue_resource = ExtResource("25_grygt")
+dialogue_filename = "restaurant"
 npc_texture = ExtResource("25_1awhn")
 sprite_scale = Vector2(0.2, 0.2)
 
 [node name="School_NPC" parent="YSortLayer/Entities" unique_id=34125236 instance=ExtResource("40_jcoo3")]
 position = Vector2(1309, -1392)
-dialogue_resource = ExtResource("27_vp8r3")
+dialogue_filename = "school"
 npc_texture = ExtResource("28_6txi4")
 sprite_scale = Vector2(0.19, 0.19)
 
 [node name="Beach_NPC" parent="YSortLayer/Entities" unique_id=168595100 instance=ExtResource("40_jcoo3")]
 position = Vector2(6289, 2529)
-dialogue_resource = ExtResource("29_d3m0s")
+dialogue_filename = "beach"
 npc_texture = ExtResource("30_jcoo3")
 sprite_scale = Vector2(0.3, 0.3)
 
 [node name="Festival_NPC" parent="YSortLayer/Entities" unique_id=136698159 instance=ExtResource("40_jcoo3")]
 position = Vector2(3616, 2199)
-dialogue_resource = ExtResource("30_0vckw")
+dialogue_filename = "festival"
 npc_texture = ExtResource("32_ynaag")
 sprite_scale = Vector2(0.18, 0.18)
 
 [node name="OnPhone_NPC" parent="YSortLayer/Entities" unique_id=117741216 instance=ExtResource("40_jcoo3")]
 position = Vector2(6802, 438)
-dialogue_resource = ExtResource("31_evuf8")
+dialogue_filename = "OnPhone"
 npc_texture = ExtResource("34_4jxuj")
 sprite_scale = Vector2(0.23, 0.23)
 
 [node name="Walker_NPC" parent="YSortLayer/Entities" unique_id=1856690672 instance=ExtResource("40_jcoo3")]
-position = Vector2(4921, -2619)
-dialogue_resource = ExtResource("32_vp5md")
+position = Vector2(4933, -2632)
+dialogue_filename = "Walking"
 npc_texture = ExtResource("36_qy6g3")
 sprite_scale = Vector2(0.18, 0.18)
 
 [node name="Pharmacy_NPC" parent="YSortLayer/Entities" unique_id=1350779227 instance=ExtResource("40_jcoo3")]
 position = Vector2(3381, 377)
-dialogue_resource = ExtResource("33_6txi4")
+dialogue_filename = "pharmacy"
 npc_texture = ExtResource("38_4jxuj")
 sprite_scale = Vector2(0.18, 0.18)
 

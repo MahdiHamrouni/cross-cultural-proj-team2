@@ -94,9 +94,9 @@ func _end_game(won: bool):
 		var seconds = int(elapsed_time) % 60
 		var hs_minutes = int(high_score) / 60
 		var hs_seconds = int(high_score) % 60
-		final_message.text = "You silenced the voice.\nIt will come back — but now you know you can beat it.\n\nYour time: %02d:%02d\nBest time: %02d:%02d" % [minutes, seconds, hs_minutes, hs_seconds]
+		final_message.text = tr("SWATTER_WIN") % [minutes, seconds, hs_minutes, hs_seconds]
 	else:
-		final_message.text = "The voice was loud today.\nThat's okay. Try again."
+		final_message.text = tr("SWATTER_LOSE")
 
 func _load_high_score():
 	if FileAccess.file_exists("user://swatter_highscore.dat"):

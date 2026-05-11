@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://bf8t52xlrf1xt"
+path="res://.godot/imported/beach.dialogue-a00f00b6208c52a46a4eec5ceaffd4ea.tres"
+
+[deps]
+
+source_file="res://dialogues/en/beach.dialogue"
+dest_files=["res://.godot/imported/beach.dialogue-a00f00b6208c52a46a4eec5ceaffd4ea.tres"]
+
+[params]
+
+defaults=true

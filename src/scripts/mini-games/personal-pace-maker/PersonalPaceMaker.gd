@@ -18,10 +18,10 @@ extends Node2D
 const TRACK_LENGTH = 32000.0
 const STOP_SPAWN_AT = 0.95
 const MESSAGES = [
-	"Go at your own pace",
-	"You don't need to rush",
-	"Every step counts",
-	"This is your journey",
+	"PACEMAKER_MSG_1",
+	"PACEMAKER_MSG_2",
+	"PACEMAKER_MSG_3",
+	"PACEMAKER_MSG_4",
 ]
 
 var orbs_collected = 0
@@ -77,7 +77,7 @@ func _process(delta):
 	if message_timer >= 5.0:
 		message_timer = 0.0
 		message_index = (message_index + 1) % MESSAGES.size()
-		message_label.text = MESSAGES[message_index]
+		message_label.text = tr(MESSAGES[message_index])
 
 	if progress >= 1.0:
 		_end_game()
@@ -142,7 +142,7 @@ func _spawn_orb():
 
 func _on_orb_collected():
 	orbs_collected += 1
-	orbs_label.text = "Orb: " + str(orbs_collected)
+	orbs_label.text = tr("PACEMAKER_ORB") + str(orbs_collected)
 
 func player_hit():
 	player.apply_slowdown()
@@ -152,8 +152,8 @@ func _end_game():
 	game_over = true
 	get_tree().paused = true
 	final_panel.visible = true
-	final_message.text = "Some obstacles hit you anyway — that's life.\nIt doesn't always give you room to dodge.\nWhat matters is that you kept running."
-	final_orbs.text = "Progress orbs collected: " + str(orbs_collected)
+	final_message.text = tr("PACEMAKER_END_MSG")
+	final_orbs.text = tr("PACEMAKER_END_ORBS") + str(orbs_collected)
 
 func _on_start_pressed():
 	GameManager.intro_shown = true

@@ -70,7 +70,9 @@ arrow={
 
 [internationalization]
 
-locale/translations_pot_files=PackedStringArray("res://dialogues/restaurant.dialogue", "res://dialogues/school.dialogue", "res://dialogues/beach.dialogue", "res://dialogues/festival.dialogue", "res://dialogues/OnPhone.dialogue", "res://dialogues/Online.dialogue", "res://dialogues/Walking.dialogue", "res://dialogues/pharmacy.dialogue")
+locale/translations=PackedStringArray("res://Localization/translations.en.translation", "res://Localization/translations.it.translation")
+locale/translations_pot_files=PackedStringArray("res://dialogues/en/beach.dialogue", "res://dialogues/en/festival.dialogue", "res://dialogues/en/OnPhone.dialogue", "res://dialogues/en/pharmacy.dialogue", "res://dialogues/en/restaurant.dialogue", "res://dialogues/en/school.dialogue", "res://dialogues/en/Walking.dialogue", "res://dialogues/it/restaurant.dialogue", "res://dialogues/it/Walking.dialogue", "res://dialogues/it/beach.dialogue", "res://dialogues/it/OnPhone.dialogue", "res://dialogues/it/festival.dialogue", "res://dialogues/it/pharmacy.dialogue", "res://dialogues/it/school.dialogue")
+locale/test="it"
 
 [physics]
 

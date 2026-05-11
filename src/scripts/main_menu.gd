@@ -21,3 +21,11 @@ func _on_quit_pressed() -> void:
 
 func _on_resources_pressed() -> void:
 	get_tree().change_scene_to_file("res://scenes/resources.tscn")
+
+
+func _on_language_pressed() -> void:
+	if TranslationServer.get_locale() == "it":
+		TranslationServer.set_locale("en")
+	else:
+		TranslationServer.set_locale("it")
+	get_tree().reload_current_scene()

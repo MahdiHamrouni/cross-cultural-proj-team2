@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://08e0s65sfoe6"
+path="res://.godot/imported/restaurant.dialogue-d93f4cba1c0aba6fd2825e1ba95c43ad.tres"
+
+[deps]
+
+source_file="res://dialogues/it/restaurant.dialogue"
+dest_files=["res://.godot/imported/restaurant.dialogue-d93f4cba1c0aba6fd2825e1ba95c43ad.tres"]
+
+[params]
+
+defaults=true

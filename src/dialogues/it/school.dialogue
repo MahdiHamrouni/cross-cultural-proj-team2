@@ -1,0 +1,53 @@
+~ start
+Student: Già che siamo bloccati qui... lasciami fare una domanda. Entri mai in una stanza — tipo la mensa o una nuova classe — e ti senti improvvisamente su un palco con un enorme riflettore puntato su di te? E tutto il pubblico sta solo... aspettando che tu faccia un errore?
+- Ogni singola volta. È estenuante.
+    => spotlight_response
+- Solo quando faccio qualcosa, tipo una presentazione.
+    => spotlight_response
+- Mi sento più un fantasma che una star.
+    => spotlight_response
+- Ignoro tutti e spero per il meglio.
+    => spotlight_response
+~ spotlight_response
+Student: Totalmente. È come se il tuo cervello decidesse all'improvviso che sei il protagonista, ma in un film horror dove il mostro è solo... qualcuno che giudica il tuo outfit o il modo in cui cammini.
+Student: Ecco la parte assurda: gli scienziati la chiamano "Effetto Riflettore." Pensiamo che ci sia una lampada letterale che ci segue, illuminando ogni cosa imbarazzante che facciamo.
+Student: Ma in realtà? La maggior parte delle persone è così preoccupata del proprio riflettore che non nota nemmeno il tuo. Sono troppo impegnate a pensare "Aspetta, ho i capelli strani?" per notare se hai inciampato su una parola.
+Student: Ma anche sapendolo, i "E se" fanno ancora male, vero? "E se dico qualcosa di stupido?" "E se pensano che sono strano?"
+Student: Quando quei pensieri iniziano a spiralare in classe, qual è la tua mossa?
+- Smetto semplicemente di parlare del tutto.
+    => coping_response
+- Preparo mentalmente quello che dirò all'infinito.
+    => coping_response
+- Controllo il telefono per sembrare occupato.
+    => coping_response
+- Cerco di sembrare "normale" ma finisco per sembrare un robot.
+    => coping_response
+~ coping_response
+Student: Ho fatto sicuramente la cosa del "robot". È come se il tuo software sociale iniziasse a laggare e dimenticassi come funzionano le braccia.
+Student: Il punto è che l'ansia sociale non è un difetto della personalità. È il sistema di sicurezza iperprotettivo del tuo cervello. Pensa che uno sguardo giudicante sia pericoloso quanto una tigre. Spoiler: non lo è, ma dillo ai tuoi palmi sudati.
+Student: Non possiamo esattamente spegnere il sistema di sicurezza, ma possiamo sicuramente abbassare il volume.
+Student: Pronti per alcuni potenziamenti "Furtività Sociale"?
+- Dai il bottino.
+    => powerups
+~ powerups
+Student: Eccolo. Ecco il kit:
+Student: Primo: La Regola 5-5-5. Quando il cuore inizia a battere forte, trova 5 cose che puoi vedere, 5 che puoi sentire, e 5 che puoi toccare. Salva il tuo cervello dalla "preoccupazione futura" e lo riporta nella stanza.
+Student: Secondo: Verifica il Critico Interno. Quando il tuo cervello dice "Tutti pensano che sono uno sfigato", chiedi: "Ho prove concrete di questo? O sto solo inventando una storia?"
+Student: Terzo: Il Gioco del "E allora?". Se dici qualcosa di imbarazzante... e allora? Se lo ricorderà qualcuno tra tre giorni? Probabilmente no. Saranno troppo impegnati a ricordare i propri momenti imbarazzanti.
+Student: Quarto: Contatto Visivo "Light". Se guardare le persone negli occhi è troppo, guarda il punto esatto tra le loro sopracciglia. Non notano la differenza, e si sente il 50% meno intenso.
+Student: Quinto: Concentrati verso l'esterno. Invece di monitorare il tuo respiro o la tua postura, cerca di ascoltare davvero quello che l'altra persona sta dicendo. Sii curioso di lei.
+Student: Quale di questi sembra che potrebbe effettivamente impedirti di andare in crash oggi?
+- Verificare il mio critico interiore.
+    => closing
+- Il trucco di ancoraggio 5-5-5.
+    => closing
+- Giocare al gioco del "E allora?".
+    => closing
+- Concentrarmi più sugli altri che su me stesso.
+    => closing
+~ closing
+Student: Scelta solida. Toglie la pressione da te e la rimette sul mondo.
+Student: Prima di andare alla prossima classe, ricorda questo: hai il permesso di essere imbarazzante. La maggior parte delle persone più fighe lo è. La perfezione è noiosa — sono i glitch che ci rendono interessanti.
+Student: Se hai bisogno di me, sarò proprio qui... ancora cercando di capire se riesco ad arrivare alla fine della giornata senza salutare accidentalmente qualcuno che non mi stava salutando.
+Student: Pronto ad andare avanti? Tocca lo schermo. Ce la facciamo.
+=> END
