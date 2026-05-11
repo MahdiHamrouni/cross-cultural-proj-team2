@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://da4yqumjy6osa"]
+
+[ext_resource type="Script" uid="uid://b1hdgusrl7u6" path="res://scripts/mini-games/Thought-Swatter/Boss.gd" id="1_1j3fw"]
+[ext_resource type="Texture2D" uid="uid://blm84ip1oemv7" path="res://assets/images/mini-games/ThoughtSwatter/boss.png" id="2_plld2"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_plld2"]
+radius = 37.0
+
+[node name="Boss" type="Area2D" unique_id=568253607 groups=["boss"]]
+script = ExtResource("1_1j3fw")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=634639485]
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("2_plld2")
+
+[node name="HealthBar" type="ProgressBar" parent="." unique_id=2055595426]
+offset_right = 4.0
+offset_bottom = 27.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=894968507]
+shape = SubResource("CircleShape2D_plld2")

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bqoimfqksnsy4"
-path="res://.godot/imported/lives.png-8f5bb82fc7780eea133cc6db56b9b025.ctex"
+uid="uid://c4bbkgcommtop"
+path="res://.godot/imported/windy.png-317bebfc3cded8a09e9a207effc611e2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/mini-games/break-breaker/lives.png"
-dest_files=["res://.godot/imported/lives.png-8f5bb82fc7780eea133cc6db56b9b025.ctex"]
+source_file="res://assets/images/mini-games/PaceMaker/obstacles/high/windy.png"
+dest_files=["res://.godot/imported/windy.png-317bebfc3cded8a09e9a207effc611e2.ctex"]
 
 [params]
 

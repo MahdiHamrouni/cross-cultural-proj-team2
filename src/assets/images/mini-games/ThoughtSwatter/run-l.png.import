@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bqoimfqksnsy4"
-path="res://.godot/imported/lives.png-8f5bb82fc7780eea133cc6db56b9b025.ctex"
+uid="uid://bxp87oq13ptr3"
+path="res://.godot/imported/run-l.png-68cf07aee4fb654c3c37af7377723598.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/mini-games/break-breaker/lives.png"
-dest_files=["res://.godot/imported/lives.png-8f5bb82fc7780eea133cc6db56b9b025.ctex"]
+source_file="res://assets/images/mini-games/ThoughtSwatter/run-l.png"
+dest_files=["res://.godot/imported/run-l.png-68cf07aee4fb654c3c37af7377723598.ctex"]
 
 [params]
 

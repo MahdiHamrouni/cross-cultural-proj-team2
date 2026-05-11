@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://bsv0ofnjj1mtj"]
+
+[ext_resource type="Script" uid="uid://0k78idqsbbeb" path="res://scripts/mini-games/personal-pace-maker/Obstacle.gd" id="1_62wsa"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_l5xse"]
+radius = 30.0
+
+[node name="Obstacle" type="Area2D" unique_id=1812223172]
+script = ExtResource("1_62wsa")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2069219406]
+scale = Vector2(0.3, 0.3)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2121853398]
+shape = SubResource("CircleShape2D_l5xse")

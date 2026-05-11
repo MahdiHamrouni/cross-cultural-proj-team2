@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://bwf6dm0671sfh"]
+
+[ext_resource type="Script" uid="uid://dl8gb8446yq8w" path="res://scripts/mini-games/Thought-Swatter/Arrow.gd" id="1_2dvyr"]
+[ext_resource type="Texture2D" uid="uid://bpmg60wuub6cy" path="res://assets/images/mini-games/ThoughtSwatter/arrow.png" id="2_r6ikd"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mcul5"]
+size = Vector2(20, 50)
+
+[node name="Arrow" type="Area2D" unique_id=2053365763]
+script = ExtResource("1_2dvyr")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1695059993]
+shape = SubResource("RectangleShape2D_mcul5")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=479372443]
+scale = Vector2(0.15, 0.15)
+texture = ExtResource("2_r6ikd")

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bqoimfqksnsy4"
-path="res://.godot/imported/lives.png-8f5bb82fc7780eea133cc6db56b9b025.ctex"
+uid="uid://0d4f5bai8i5p"
+path="res://.godot/imported/loser.png-f56ea5d91bf346201f62ac0f0225c220.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/mini-games/break-breaker/lives.png"
-dest_files=["res://.godot/imported/lives.png-8f5bb82fc7780eea133cc6db56b9b025.ctex"]
+source_file="res://assets/images/mini-games/PaceMaker/obstacles/high/loser.png"
+dest_files=["res://.godot/imported/loser.png-f56ea5d91bf346201f62ac0f0225c220.ctex"]
 
 [params]
 

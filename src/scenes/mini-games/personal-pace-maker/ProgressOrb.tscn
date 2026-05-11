@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://b2lyb0s2oxd6i"]
+
+[ext_resource type="Script" uid="uid://c4k4cgvmoqru3" path="res://scripts/mini-games/personal-pace-maker/ProgressOrb.gd" id="1_sifwv"]
+[ext_resource type="Texture2D" uid="uid://xtnu3ldrwxtk" path="res://assets/images/mini-games/break-breaker/check.png" id="2_gsusb"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_gsusb"]
+radius = 20.0
+
+[node name="ProgressOrb" type="Area2D" unique_id=32723448]
+script = ExtResource("1_sifwv")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1413862450]
+shape = SubResource("CircleShape2D_gsusb")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=315176840]
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("2_gsusb")
