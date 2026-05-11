@@ -1,5 +1,6 @@
 [gd_scene format=4 uid="uid://bi8ebcm3usa4v"]
 
+[ext_resource type="Script" uid="uid://dxntld52nd7n6" path="res://scripts/mini-games/mini_game_menu.gd" id="1_2nlwh"]
 [ext_resource type="PackedScene" uid="uid://bts03rq5oj77c" path="res://scenes/mini-games/cardGame.tscn" id="1_42t2x"]
 [ext_resource type="Texture2D" uid="uid://k071y0hb0vox" path="res://assets/images/mini-games/break-breaker.png" id="2_km63x"]
 [ext_resource type="Texture2D" uid="uid://6m08htws6pnp" path="res://assets/images/mini-games/pace-maker.png" id="3_mjm6n"]
@@ -229,6 +230,7 @@ style_name = "Medium"
 font_weight = 500
 subpixel_positioning = 0
 msdf_pixel_range = 8
+msdf_size = 128
 cache/0/variation_coordinates = {}
 cache/0/face_index = 0
 cache/0/embolden = 0.0
@@ -2473,6 +2475,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_2nlwh")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=840600936]
 
@@ -2520,22 +2523,22 @@ theme_override_constants/separation = 10
 [node name="Card1" parent="CanvasLayer/Panel/VBoxContainer/ScrollContainer/VBoxContainer" unique_id=166193575 instance=ExtResource("1_42t2x")]
 layout_mode = 2
 scene_path = "res://scenes/mini-games/break-breaker/HighlightReel.tscn"
-game_title = "Highlight Reel Smasher"
-game_description = "Break through the filtered perfectionof social media. Fire truth pelletsand reveal reality."
+game_title = "The Highlight Reel Smasher"
+game_description = "Social media shows you the perfect versionof everyone's life. Perfect bodies, perfect trips,perfect moments. But behind every filtered photois a reality nobody posts.Grab your Truth Pellets and shatter the illusion.Break through the perfect posts and seewhat's really behind the screen."
 game_image = ExtResource("2_km63x")
 
 [node name="Card2" parent="CanvasLayer/Panel/VBoxContainer/ScrollContainer/VBoxContainer" unique_id=749813717 instance=ExtResource("1_42t2x")]
 layout_mode = 2
 scene_path = "res://scenes/mini-games/personal-pace-maker/PersonalPaceMaker.tscn"
 game_title = "Personal Pace-Maker"
-game_description = "Run at your own pace.Jump over what weighs you down.You don't need to beat anyone."
+game_description = "Everyone around you seems to be running faster.Finishing more, achieving more, doing more.But this is not their race — it's yours.Dodge the obstacles life throws at you,collect the small wins along the way,and reach the finish line at your own pace.Nobody else's."
 game_image = ExtResource("3_mjm6n")
 
 [node name="Card3" parent="CanvasLayer/Panel/VBoxContainer/ScrollContainer/VBoxContainer" unique_id=1329836449 instance=ExtResource("1_42t2x")]
 layout_mode = 2
 scene_path = "res://scenes/mini-games/Thought-Swatter/ThoughtSwatter.tscn"
 game_title = "Thought-Swatter"
-game_description = "Your inner critic is loud today.Deflect the negative thoughtsand silence the voice inside."
+game_description = "Your inner critic never sleeps.It knows your fears, your doubts,your worst moments — and it uses them against you.But the voice inside your head is not always right.Deflect its words, fight back with the truth,and silence the critic once and for all."
 game_image = ExtResource("4_b0omv")
 
 [node name="back_home" type="Button" parent="CanvasLayer/Panel/VBoxContainer" unique_id=486962920]
@@ -2553,3 +2556,5 @@ theme_override_styles/normal = SubResource("StyleBoxFlat_2nlwh")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_8rdwm")
 theme_override_styles/hover = SubResource("StyleBoxFlat_ug0i5")
 text = "back home"
+
+[connection signal="pressed" from="CanvasLayer/Panel/VBoxContainer/back_home" to="." method="_on_back_home_pressed"]

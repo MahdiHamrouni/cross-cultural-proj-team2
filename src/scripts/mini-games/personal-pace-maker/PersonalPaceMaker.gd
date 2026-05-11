@@ -148,6 +148,7 @@ func player_hit():
 	player.apply_slowdown()
 
 func _end_game():
+	GameManager.add_xp(orbs_collected * 15)
 	game_over = true
 	get_tree().paused = true
 	final_panel.visible = true
@@ -166,5 +167,6 @@ func _on_restart_pressed():
 
 func _on_quit_pressed():
 	GameManager.intro_shown = false
+	GameManager.return_to_minigame_menu = true
 	get_tree().paused = false
 	get_tree().change_scene_to_file("res://scenes/journey.tscn")

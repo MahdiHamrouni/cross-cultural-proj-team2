@@ -225,6 +225,7 @@ style_name = "Medium"
 font_weight = 500
 subpixel_positioning = 0
 msdf_pixel_range = 8
+msdf_size = 128
 cache/0/variation_coordinates = {}
 cache/0/face_index = 0
 cache/0/embolden = 0.0
@@ -2463,16 +2464,19 @@ script = ExtResource("1_nuf6h")
 layout_mode = 2
 
 [node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer" unique_id=338675522]
-custom_minimum_size = Vector2(0, 200)
+custom_minimum_size = Vector2(550, 220)
 layout_mode = 2
 size_flags_horizontal = 3
 
 [node name="Title" type="Label" parent="HBoxContainer/VBoxContainer" unique_id=2044020487]
 layout_mode = 2
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="Description" type="Label" parent="HBoxContainer/VBoxContainer" unique_id=2081139364]
 layout_mode = 2
 size_flags_vertical = 3
+autowrap_mode = 2
 
 [node name="TextureRect" type="TextureRect" parent="HBoxContainer" unique_id=1643669461]
 layout_mode = 2
@@ -2480,10 +2484,10 @@ size_flags_horizontal = 3
 expand_mode = 2
 
 [node name="Panel" type="Panel" parent="HBoxContainer" unique_id=269980391]
-custom_minimum_size = Vector2(120, 0)
+custom_minimum_size = Vector2(140, 0)
 layout_mode = 2
 
-[node name="PlayButton" type="Button" parent="HBoxContainer/Panel" unique_id=1217795939]
+[node name="play_button" type="Button" parent="HBoxContainer/Panel" unique_id=1217795939]
 custom_minimum_size = Vector2(50, 50)
 layout_mode = 1
 anchors_preset = 8
@@ -2509,3 +2513,5 @@ theme_override_styles/normal = SubResource("StyleBoxFlat_3d08c")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_80lm7")
 theme_override_styles/hover = SubResource("StyleBoxFlat_c8iv4")
 text = "play"
+
+[connection signal="pressed" from="HBoxContainer/Panel/play_button" to="." method="_on_play_button_pressed"]
