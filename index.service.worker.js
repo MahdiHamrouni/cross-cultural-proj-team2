@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1776340933|690488665';
+const CACHE_VERSION = '1778679018|53854135';
 /** @type {string} */
 const CACHE_PREFIX = 'Careline-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
