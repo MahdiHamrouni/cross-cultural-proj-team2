@@ -35,3 +35,5 @@ SWATTER_WIN,"Hai messo a tacere la voce.\nTornerà — ma ora sai che puoi batte
 SWATTER_LOSE,"La voce era forte oggi.\nVa bene. Riprova.","The voice was loud today.\nThat's okay. Try again."
 INTERACT_TALK,Premi E per parlare,Press E to talk
 MINDFULNESS_LABEL,Consapevolezza,Mindfulness
+MAIN_MENU_LANGUAGE_IT,Lingua: Italiano,Lingua: Italiano
+MAIN_MENU_LANGUAGE_EN,Language: English,Language: English
