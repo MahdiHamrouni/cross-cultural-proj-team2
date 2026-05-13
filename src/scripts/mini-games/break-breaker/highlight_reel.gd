@@ -18,6 +18,7 @@ var score: int = 0
 var difficulty: float = 1.0
 var high_score: int = 0
 var min_spawn_interval: float = 0.6  # limite minimo spawn
+var return_to_minigame_menu: bool = false
 
 func _ready():
 	if GameManager.intro_shown:
@@ -102,6 +103,7 @@ func post_destroyed():
 	label_punteggio.text = str(score)
 
 func game_over():
+	GameManager.add_xp(score * 10)
 	if score > high_score:
 		high_score = score
 		_save_high_score()
@@ -128,6 +130,7 @@ func _on_restart_pressed() -> void:
 
 func _on_quit_pressed() -> void:
 	GameManager.intro_shown = false
+	GameManager.return_to_minigame_menu = true
 	get_tree().paused = false
 	get_tree().change_scene_to_file("res://scenes/journey.tscn")
 

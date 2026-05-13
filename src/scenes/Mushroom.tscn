@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://bidkdriaamq2q"]
+
+[node name="Mushroom" type="StaticBody2D" unique_id=541721321]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1400471476]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2064078350]
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1728008376]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1890076829]

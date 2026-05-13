@@ -76,6 +76,13 @@ func _on_boss_defeated():
 	_end_game(true)
 
 func _end_game(won: bool):
+	if won:
+		# Meno tempo = più XP, minimo 50 massimo 200
+		var time_xp = int(clamp(200 - elapsed_time, 50, 200))
+		GameManager.add_xp(time_xp)
+	else:
+		GameManager.add_xp(30)
+	
 	game_over = true
 	get_tree().paused = true
 	final_panel.visible = true
@@ -87,9 +94,9 @@ func _end_game(won: bool):
 		var seconds = int(elapsed_time) % 60
 		var hs_minutes = int(high_score) / 60
 		var hs_seconds = int(high_score) % 60
-		final_message.text = "You silenced the voice.\nIt will come back — but now you know you can beat it.\n\nYour time: %02d:%02d\nBest time: %02d:%02d" % [minutes, seconds, hs_minutes, hs_seconds]
+		final_message.text = tr("SWATTER_WIN") % [minutes, seconds, hs_minutes, hs_seconds]
 	else:
-		final_message.text = "The voice was loud today.\nThat's okay. Try again."
+		final_message.text = tr("SWATTER_LOSE")
 
 func _load_high_score():
 	if FileAccess.file_exists("user://swatter_highscore.dat"):
@@ -114,5 +121,6 @@ func _on_restart_pressed():
 
 func _on_quit_pressed():
 	GameManager.intro_shown = false
+	GameManager.return_to_minigame_menu = true
 	get_tree().paused = false
 	get_tree().change_scene_to_file("res://scenes/journey.tscn")

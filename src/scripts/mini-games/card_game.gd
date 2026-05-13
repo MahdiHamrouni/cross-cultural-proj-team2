@@ -7,7 +7,7 @@ extends PanelContainer
 
 @onready var title_label: Label = $HBoxContainer/VBoxContainer/Title
 @onready var desc_label: Label = $HBoxContainer/VBoxContainer/Description
-@onready var play_button: Button = $HBoxContainer/Panel/PlayButton
+@onready var play_button: Button = $HBoxContainer/Panel/play_button
 @onready var image_rect: TextureRect = $HBoxContainer/TextureRect
 
 func _ready():

@@ -1,0 +1,29 @@
+~ start
+Guide: Oh ehi, ce l'hai fatta. Benvenuto ai Margini del Feed. Sono Sage. La tua guida locale, parte amico tranquillo, parte "probabilmente ho scrollato troppo anche ieri sera."
+Guide: Allora... prima di iniziare... domanda veloce: hai mai aperto i social e sentito immediatamente che la tua vita intera non è... abbastanza estetica?
+- Letteralmente ogni giorno.
+    => highlight_reel
+- A volte.
+    => highlight_reel
+- No, io sono diverso.
+    => highlight_reel
+- Mi rifiuto di rispondere.
+    => highlight_reel
+~ highlight_reel
+Guide: Sinceramente? Anche io. Il mio feed sembra una terra magica dove tutti gli altri brillano e sono produttivi mentre io sono qui a mangiare cereali a cena. Due volte.
+Guide: Ma ecco il segreto che le app non ti dicono... Tutto quello che stai vedendo? Sì, è un highlight reel. Tipo, il top 1% dei momenti della vita di qualcuno.
+Guide: Nel frattempo tu lo stai confrontando con il tuo intero dietro le quinte. I capelli in disordine. Lo stress. Le sensazioni del tipo "Aspetta, cosa sto facendo oggi?"
+Guide: Lasciami chiedere una cosa però. Quando vedi qualcuno postare la sua vacanza da sogno o la foto perfetta in palestra... cosa fa il tuo cervello?
+- Sono contento per loro!
+    => comparison_trap
+- Mi confronto immediatamente.
+    => comparison_trap
+- SO che è costruito ma il mio cervello mi attacca lo stesso.
+    => comparison_trap
+- Sto disinstallando l'app mentre parliamo.
+    => comparison_trap
+~ comparison_trap
+Guide: Tutto normalissimo. Il tuo cervello è letteralmente costruito per confrontarsi con gli altri. Sta cercando di capire dove ti collochi socialmente — il che è bello e tutto — MA i social trasformano quell'istinto in un lavoro a tempo pieno.
+Guide: Invece di confrontarti con poche persone, all'improvviso ti confronti con migliaia di momenti modificati, filtrati e perfettamente illuminati ogni singolo giorno. E il tuo cervello dice: "Oh cavolo... tutti gli altri hanno la loro vita in ordine."
+Guide: Spoiler: non è così.
+=> END

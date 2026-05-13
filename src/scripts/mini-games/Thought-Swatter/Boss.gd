@@ -14,7 +14,12 @@ var direction: float = 1.0
 var screen_width: float
 var initial_scale: Vector2
 
-const WORDS = [
+const WORDS_IT = [
+	"Fallito", "Debole", "Brutto",
+	"Inutile", "Patetico", "Perdente"
+]
+
+const WORDS_EN = [
 	"Failure", "Weak", "Ugly",
 	"Worthless", "Pathetic", "Loser"
 ]
@@ -50,4 +55,6 @@ func take_damage():
 		queue_free()
 
 func get_random_word() -> String:
-	return WORDS[randi() % WORDS.size()]
+	var lang = TranslationServer.get_locale().substr(0, 2)
+	var words = WORDS_IT if lang == "it" else WORDS_EN
+	return words[randi() % words.size()]

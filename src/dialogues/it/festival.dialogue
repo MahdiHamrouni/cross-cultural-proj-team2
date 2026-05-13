@@ -1,0 +1,40 @@
+~ start
+Spettatore: Non mi aspettavo di vederti qui. Sei qui da tutto il giorno?
+You: Sì, dal pomeriggio. È stata una bella giornata.
+Spettatore: Anche io. Ehi, ho preso una cosa prima se ne vuoi. Fa vivere tutto in modo completamente diverso.
+You: Cos'è?
+Spettatore: Solo qualcosa per togliersi la tensione. Metà delle persone qui ce l'ha adesso, non è niente di strano.
+You: Non so...
+Spettatore: Seriamente, mi ringrazierai quando si spengono le luci. Fa sentire tutto più vivo. Sei già qui, tanto vale sentirlo davvero.
+- No grazie, sto bene. Sento già l'energia qui dentro.
+    => choice_a
+- Forse più tardi stanotte.
+    => choice_b
+- Ok... sì, dai.
+    => choice_c
+- Lascio perdere. Ma sai davvero cos'è?
+    => choice_d
+~ choice_a
+Spettatore: Peggio per te. (scrolla le spalle e torna a guardare il palco)
+You: (tra sé) Ah. Era tutto qui.
+Narrator: Le luci si spengono. La folla si spinge in avanti. Sei completamente presente per tutto.
+System: Abilità rafforzata: Rifiuto basato sui valori. Non devi spiegazioni a nessuno. Nominare quello che già senti fa atterrare il "no" senza drammi.
+=> END
+~ choice_b
+Spettatore: Sì certo, trovami dopo le prime canzoni.
+Narrator: Il set inizia. Venti minuti dopo, lo Spettatore ti tocca sulla spalla.
+Spettatore: Allora — ancora forse più tardi, o ne vuoi adesso?
+You: (si rende conto che la porta è ancora aperta)
+System: Abilità rafforzata: "Forse più tardi" ritarda la pressione ma non la termina. Un chiaro "no" subito costa meno che portare la decisione per tutta la notte.
+=> END
+~ choice_c
+Spettatore: Ecco fatto. (te lo passa) Lo sentirai tra un po'.
+Narrator: Il set inizia. Aspetti. Poi qualcosa cambia — la folla sembra troppo vicina, il suono troppo forte.
+You: (tra sé) Non so davvero cosa ho appena preso.
+Narrator: Lo Spettatore è scomparso nella folla. Sei solo con quello che hai preso.
+System: Abilità rafforzata: Se qualcosa sembra sbagliato, trova subito il personale medico dell'evento. Non è esagerare — è esattamente per questo che sono lì, e non avrai problemi.
+=> END
+~ choice_d
+Spettatore: (pausa) Il tizio ha detto che andava bene.
+You: Sì ma tipo — lo sai davvero?
+=> END

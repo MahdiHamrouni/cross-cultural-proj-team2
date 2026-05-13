@@ -1,0 +1,31 @@
+~ start
+Bagnante: Ehi... sono contento che tu sia venuto fin qui. Le giornate al mare sembrano rilassanti in teoria, vero? Sole, onde, buone vibrazioni.
+Bagnante: Ma lasciami fare una domanda veloce — hai mai messo piede su una spiaggia e ti sei sentito improvvisamente molto più consapevole del tuo corpo del solito?
+- Sì... immediatamente.
+    => beach_spotlight
+- A volte, dipende dalla giornata.
+    => beach_spotlight
+- Non molto.
+    => beach_spotlight
+- Cerco di non pensarci.
+    => beach_spotlight
+~ beach_spotlight
+Bagnante: Sì. Anche io. È come se nel momento in cui arrivi sulla sabbia, il tuo cervello accendesse un riflettore che non hai chiesto.
+Bagnante: Inizi a notare tutto — il tuo corpo, i corpi degli altri, cosa indossi, come vorresti apparire.
+Bagnante: E in qualche modo sembra che tutti gli altri siano più sicuri, più a proprio agio, più... in ordine.
+Bagnante: Ma ecco una cosa importante che non viene detta abbastanza — la maggior parte delle persone che vedi qui? Sono anche loro nei loro pensieri. Stanno aggiustando, confrontando, pensando troppo. Proprio come te.
+Bagnante: Lasciami chiedere — quando guardi intorno e vedi qualcuno che pensi sembri "perfetto"... cosa succede nella tua mente?
+- Mi confronto immediatamente.
+    => comparison_mode
+- Mi sento un po' insicuro.
+    => comparison_mode
+- Cerco di non farlo, ma succede lo stesso.
+    => comparison_mode
+- Mi ricordo che non importa.
+    => comparison_mode
+~ comparison_mode
+Bagnante: Tutte queste reazioni sono comunissime. Il tuo cervello è programmato per confrontare — sta cercando di capire dove ti collochi.
+Bagnante: Ma in spiaggia, quell'istinto va in overdrive. È come se la modalità confronto venisse alzata al massimo volume.
+Bagnante: Ricordati solo di essere gentile con te stesso oggi. Meriti di goderti il sole tanto quanto chiunque altro qui.
+Bagnante: Pronto a trovare un posto dove sederti? Tocca lo schermo quando sei pronto.
+=> END

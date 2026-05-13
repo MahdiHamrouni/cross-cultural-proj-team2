@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://f5tfvlrutuuo"
+path="res://.godot/imported/OnPhone.dialogue-dc3c8d384d22672e15a3c1122bfa1cc2.tres"
+
+[deps]
+
+source_file="res://dialogues/en/OnPhone.dialogue"
+dest_files=["res://.godot/imported/OnPhone.dialogue-dc3c8d384d22672e15a3c1122bfa1cc2.tres"]
+
+[params]
+
+defaults=true

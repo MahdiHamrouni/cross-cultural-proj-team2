@@ -1,0 +1,21 @@
+~ start
+Chef: Stai bene? Hai quell'aria come se non fosse solo il cibo a pesarti.
+- Sto bene.
+    => fine
+- Sinceramente? Mi sono sentito molto solo.
+    => honest
+~ fine
+Chef: Va bene. Buon appetito.
+=> END
+~ honest
+Chef: Strano sentirsi così, circondati di gente. Ma capisco.
+Chef: L'appartenenza è un bisogno umano fondamentale. Quando manca, tutto sembra più pesante. Non c'è niente di sbagliato in te.
+Chef: Contatta qualcuno. Inizia in piccolo. E se ti pesa davvero — parla con qualcuno che può aiutarti davvero.
+Chef: [alza il bicchiere] Non sei solo come pensi.
+- Grazie.
+    => closing
+- Ci proverò.
+    => closing
+~ closing
+Chef: Per oggi basta così.
+=> END

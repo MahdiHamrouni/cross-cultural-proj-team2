@@ -1,0 +1,18 @@
+~ start
+Elara: Corsa in farmacia? Ricordo quando ho preso la mia per la prima volta — sono rimasta in macchina venti minuti prima di aprire anche solo il sacchetto.
+- Ho solo difficoltà ad ammettere che ne ho davvero bisogno. Sembra come se avessi fallito.
+    => elara_glasses
+- Sono preoccupato che la gente pensi che stia cercando la via facile invece di essere semplicemente "forte".
+    => elara_glasses
+~ elara_glasses
+Elara: Non è una scorciatoia. Se la tua vista fosse sfocata, porteresti gli occhiali — questi sono solo "occhiali" per la chimica del tuo cervello.
+- Non l'avevo mai vista in questo modo. È solo un altro strumento, immagino.
+    => elara_support
+- Penso che abbia trattato un problema medico come un difetto del carattere.
+    => elara_support
+~ elara_support
+Elara: Esattamente. Stai solo dando una mano al tuo sistema. Non c'è nessun premio per soffrire più del necessario.
+- Penso di essere pronto a smettere di sentirmi in colpa e iniziare semplicemente a cercare di stare meglio.
+    => END
+- È un sollievo sentire che chiedere aiuto è in realtà la mossa intelligente, non quella debole.
+    => END
